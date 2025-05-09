@@ -1,10 +1,10 @@
 import React from "react";
+import Avartar from "./Avartar";
 
 export default function Profile({ image, name, title, badge }) {
     return (
         <div className="profile">
-            <img className="photo" src={image} alt="avatar" />
-            {badge && <span className="badge">{badge}</span>}
+            <Avartar image={image} badge={badge} />
             <h1>{name}</h1>
             <p>{title}</p>
         </div>
