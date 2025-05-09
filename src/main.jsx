@@ -1,9 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import AppMentors from "./AppMentors.jsx";
+import AppForm from "./AppForm.jsx";
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
-        <AppMentors />
+        <AppForm />
     </StrictMode>
 );
