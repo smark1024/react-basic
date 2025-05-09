@@ -7,6 +7,7 @@ body,
 
 .profile {
     display: block;
+    position: relative;
     width: 300px;
     margin: 0 0 1rem;
     padding: 1rem;
@@ -22,4 +23,14 @@ body,
     width: 200px;
     height: 200px;
     border-radius: 100%;
+}
+
+.badge {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
